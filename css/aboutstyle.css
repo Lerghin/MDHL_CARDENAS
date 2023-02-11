@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: "Comic Sans MS", "Comic Sans";
   }
@@ -28,6 +31,7 @@ body {
     position: absolute;
     right: 10%;
     top: 325px;
+    height:150px
   }
 
 #home{
@@ -52,6 +56,21 @@ body {
     left: 20%;
     
     top: 430px;
-    line-height : 20px;
+    line-height : 25px;
 
   }
+
+
+  #play2{
+    
+    position: relative;
+      border: 2px solid black;
+        z-index: 1;
+       right: 5px;
+       width:15%;
+      height: 15%;
+        top:70px
+       
+    }
+  
+  

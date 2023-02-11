@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: "Comic Sans MS", "Comic Sans";
   }
@@ -28,6 +31,7 @@ body {
     position: absolute;
     right: 10%;
     top: 325px;
+    height:150px
   }
   .link{
   display: inline;
@@ -60,3 +64,14 @@ body {
     line-height : 20px;
 
   }
+  
+#play3{
+    position: absolute;
+      border: 2px solid black;
+        z-index: 1;
+       right: 10px;
+       width:20%;
+      height: 20%;
+      bottom:50px;
+       
+    }
