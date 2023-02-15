@@ -44,7 +44,7 @@ h1, h2{
 
 
  text-shadow: 10px 10px rgba(0, 0, 0, 0.489);
- box-shadow: 10x 10px 2px black;
+
  text-align: center;
 
 
@@ -64,7 +64,7 @@ nav{
   display: flex;
   gap: 0.5rem;
  align-items: end;
-  justify-content: baseline;
+justify-content: space-around;
   flex-wrap: wrap;
   
 }
