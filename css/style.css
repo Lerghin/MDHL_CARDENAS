@@ -76,6 +76,11 @@ justify-content: space-around;
   
 }
 
+li {
+list-style-type: none;
+
+}
+
 nav a{
   flex-direction: column;
   background-color:black;
