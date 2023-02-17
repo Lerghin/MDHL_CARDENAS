@@ -316,6 +316,10 @@ section[class="feedback"]{
 
 }
 
+thead{
+padding-top: 2rem;
+margin: 1rem;
+}
 table[class="feedback"]{
 
 background-color: black;
