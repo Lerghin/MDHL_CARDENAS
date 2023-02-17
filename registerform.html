@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="keywords" content="MIGHTY DUCKS, HOCKEY LEAGUE" >
+    <title>Register_Form</title>
+    <link rel="stylesheet" href="../introhtml/css/style.css" >
+    <link
+      rel="shortcut icon"
+      href="../introhtml/images/Logo_Mighty_ducks-01.ico"
+    >
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../introhtml/index.html" id="home">Home</a></li>
+          <li>
+            <a href="../introhtml/aboutmdhlL.html" id="about">About_MDHL</a>
+          </li>
+          <li><a href="../introhtml/contact.html" id="contact">Contact</a></li>
+
+          <li><a href="../introhtml/rules.html" id="rules">Rules</a></li>
+          <li><a href="../introhtml/policies.html" id="policies">Policies</a></li>
+          <li><a href="../introhtml/registerform.html" id="formulario">Registration</a></li>
+          
+        </ul>
+        
+      </nav>
+
+      <div class="banner">
+        <img
+          src="../introhtml/images/banner1.jpg"
+          alt="hockey game player"
+          id="im1"
+        >
+      </div>
+        <div>
+        <h1 >MIGHTY DUCKS HOCKEY LEAGUE</h1>
+        <img
+        src="../introhtml/images/Logo_Mighty_ducks-01.ico"
+        
+        alt="team logo"
+        id="logo">
+      </div>
+
+    </header>
+    <main class="formulario">
+      
+      <form action="../introhtml/show_data.html">
+        <table class="formulario">
+          <caption><h1>Registration Form</h1></caption> 
+
+              
+        <thead>  
+            <tr> 
+            <th> <label for="nombre">Player`s First Name:</label>
+            <input name="nombre" maxlength="15" type="text" id="nombre" required><span style="color:red;">*</span> </th>
+
+            <th> <label for="apellido">Last Name:</label>
+             <input name="apellido" maxlength="15" type="text" id="apellido" required><span style="color:red;">*</span> </th>   
+            </tr>
+              <tr>
+            <th> <label for="calle">Street Address:</label>
+             <input name="calle" maxlength="100" type="text" id="calle" required><span style="color:red;">*</span></th>    
+              <th></th>
+           
+            </tr>
+            <tr> 
+                <th> <label for="city">City:</label>
+             <input name="city" maxlength="10" type="text" id="city" required> <span style="color:red;">*</span> </th>
+
+             <th>  <label for="code">Zip code:</label>
+             <input  name="code"  type="number" id="code"> </th>
+            </tr>
+            <tr>
+             <th>  <label for="fecha">Birth date (mm/dd/yyyy):</label>
+             <input name="fecha"  type="date" id="fecha" required><span style="color:red;">*</span> </th>
+
+            <th> <span style="color:red;">*</span> <label  id="genero">Gender: </label>
+             <input name="gender" type="radio" value="Female" > Female 
+
+             <input name="gender" type="radio" value="Male">Male  </th>
+            </tr>
+
+            <tr>
+                <th>  <label  id="grado" >Grade:</label>
+                <input name="grado"  type="checkbox" value="Pre-School"> Pre-School 
+                <input name="1st"  type="checkbox" value="1st"><sup> 1st</sup> 
+                <input name="2nd"  type="checkbox" value="2nd"><sup>2nd</sup> 
+                <input name="3rd"  type="checkbox" value="3rd"> <sup>3rd</sup>
+                <input name="4th"  type="checkbox" value="4th"><sup>4th </sup>
+                <input name="5th"  type="checkbox" value="5th"><sup>5th</sup>
+                </th>
+                <th></th>
+            </tr>
+          </thead>
+            <tbody>
+              <th></th>
+               <tr><th><span style="color:red;">*</span>Which elementary school do you live near?</th> 
+                
+              </tr>
+                <tr>
+                  <th> Closest School:</th>
+                  <th></th>
+                </tr>
+                <tr>
+                       <th><input name="school" type="radio" value="ajk" >AJ Katzenmaier </th>
+           
+                       <th> <input name="school" type="radio" value="MPH">Marjorie P Hart</th>
+                </tr>  
+                
+                <tr>
+                       <th> <input name="school" type="radio" value="Gb">Greenbay</th>
+
+                       <th> <input name="school" type="radio" value="NE">North Elementary</th>
+                </tr>
+
+                <tr>
+                    <th> <input name="school" type="radio" value="HAY">	Howard A Yeager></th>
+
+                    <th> <input name="school" type="radio" value="SE">South Elementary</th>
+                 </tr>
+                 <tr>
+                  <th><span style="color:red;">*</span>Uniform Size:</th> 
+                  <th></th>
+                </tr>
+                 <tr>
+                    <th> <input name="size" type="radio" value="ys">Youth Small</th>
+
+                    <th> <input name="size" type="radio" value="m">Medium</th>
+                     
+                </tr>
+                <tr>
+                    <th> <input name="size" type="radio" value="ym">Youth Medium</th>
+
+                    <th> <input name="size" type="radio" value="l">Large</th>
+                     
+                </tr>
+                <tr>
+                    <th> <input name="size" type="radio" value="yl">Youth Large</th>
+
+                    <th> <input name="size" type="radio" value="el"> Extra-Large></th>
+                     
+                </tr>
+                <tr>
+                    <th> <input name="size" type="radio" value="s">Small</th>
+                    <th></th>
+                </tr>
+                
+               
+
+            </tbody>
+            <tfoot>
+              <tr> <th><span style="color:red;">*</span>Permission to Play</th> 
+                  <th></th>
+            </tr>
+
+                <tr>
+                  <th>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation </p>
+                        
+                   <p> By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms.  </p>
+                  </th>
+                  <th></th>
+                </tr>
+                <tr> 
+                    <th> <label for="signature">Parent/Guardian Signature:</label>
+                    <input name="signature" maxlength="20" type="text" id="signature" required><span style="color:red;">*</span> </th>
+                      <th></th>
+                </tr>
+                <tr>
+                
+                <th>  <label for="date">Date:</label>
+                    <input name="firma"  type="date" id="firmaFecha" required><span style="color:red;">*</span> 
+                </th>
+
+                <th></th>
+               </tr>
+
+               <tr>
+                
+                <th><input type="submit" value="Send Request"  id ="date"></th>
+                <th></th>
+            </tr>
+            </tfoot>
+            </table>
+            
+
+
+            </form>
+
+
+
+
+
+
+        
+
+    </main>
+
+
+
+    
+  </body>
+
+
+</html>
